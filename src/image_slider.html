@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="image_slider.css">
+    <script src = "image_slider.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Image slider</h1>
+    <div class = "main-container">
+        <div class = "image-container img-1">
+        <img src="/img/IMG_4715.JPG" alt="cloudy lake image">
+        </div>
+        <div class = "image-container img-2">
+            <img src="/img/IMG_4728.JPG" alt="cloudy lake image">
+        </div>
+        <div class = "image-container img-3">
+            <img src="/img/IMG_4730.JPG" alt="cloudy lake image">
+        </div>
+        <div class = "image-container img-4">
+            <img src="/img/IMG_4735.JPG" alt="cloudy lake image">
+        </div>
+        <div class = "image-container img-5">
+            <img src="/img/IMG_4737.JPG" alt="cloudy lake image">
+        </div>
+          
+        <!-- Next and previous buttons -->
+        <a class="arrow-prev" onclick="moveImage(-1)">&#10094;</a>
+        <a class="arrow-next" onclick="moveImage(1)">&#10095;</a>
+    </div>
+
+
+    <div class="points-container">
+        <div class="points pt-1"></div>    
+        <div class="points pt-2"></div>    
+        <div class="points pt-3"></div>    
+        <div class="points pt-4"></div>    
+        <div class="points pt-5"></div>    
+    </div>
+</body>
+</html>

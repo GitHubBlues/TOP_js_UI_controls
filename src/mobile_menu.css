@@ -1,0 +1,10 @@
+body {
+    background: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+}
